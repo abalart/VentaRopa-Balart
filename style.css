@@ -1,0 +1,193 @@
+.grid {
+    display: grid;
+    grid-template-areas: 'header header header' 
+                          'main main desc'
+                          'footer footer footer';
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .nav {  
+   grid-area: header;
+   border: 1px solid;
+   background-color: black;
+    }
+    .medio {
+        grid-area: main; 
+        border: 1px solid;
+        background-color: black;
+        }
+    .desc{
+        grid-area: desc;
+        border: 1px solid;
+        
+         
+    }
+    .pie {  
+        grid-area: footer;
+        border: 1px solid;
+        background-color: black;
+       
+    }
+
+  
+nav ul li {
+    
+    border: 1px solid;
+}
+        
+
+ul{
+    display:flex;
+    justify-content: space-between;
+    border: 1px solid;
+    background-color: black;
+}
+
+  @media only screen and (max-width: 768px) { /*Cuando la medida baje a 768px*/
+   
+    nav ul li a{
+     display: flex;
+     align-items: center;
+    text-align: center;/*centra el texto dentro de un contenedor*/
+    margin-left: 100px;
+    padding: 0 1em;
+    color: rgb(219, 213, 213);
+    text-decoration: none;
+    }
+
+    nav ul li {
+        
+      
+        text-align: center;
+
+    }
+
+    ul{
+        
+        display:inline-block; /*cuando la pantalla tiene menos de 768px se pasa a agrupar una abajo del otro*/
+        justify-content: space-between;
+        text-align: center;
+        justify-content: center; 
+        border: 1px solid;
+        background-color: black;
+        
+    }
+
+    .hendora{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+     }
+     #en{
+         
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+        
+         #do{
+            display: flex;
+            align-items: center;
+            justify-content: center; 
+        }
+        
+         #ra{
+            display: flex;
+  align-items: center;
+  justify-content: center;
+        }
+     div img{
+        width: 50px;
+        height: 50px;
+        
+     }
+     
+
+}
+
+/*menor a 466px*/
+@media only screen and (max-width: 466px) {
+    .hendora{
+      flex-direction: column;
+        
+     }
+     ul{
+        
+        display:inline-block; /*cuando la pantalla tiene menos de 768px se pasa a agrupar una abajo del otro*/
+        justify-content: space-between;
+        text-align: center;
+        justify-content: center; 
+        border: 1px solid;
+        background-color: black;
+        
+    }
+}
+
+
+
+.hendora{
+    display: flex;
+    justify-content: space-between;
+
+ }
+ 
+
+div img{
+    width: 150px;
+    height: 150px;
+    
+ }
+ 
+
+
+.footer{  
+    display: flex;  /*siempre en el padre*/
+    justify-content: center; /*la posicion la determina el padre*/
+}
+
+#footer_imagen{
+    width: 50px;
+    height: 50px;
+   
+    
+}
+
+.div_p{
+    display: flex;   
+    justify-content: center; 
+    color: rgb(255, 255, 255);
+   
+        background-color: black;
+}
+
+div nav{
+        border: 1px solid;
+        background-color: black;
+
+}
+
+.textoDentroDeLista{
+    text-align: center;/*centra el texto dentro de un contenedor*/
+    margin-left: 100px;
+    padding: 0 1em;
+    color: rgb(219, 213, 213);
+    text-decoration: none;
+    font-family:cursive;
+
+}
+
+.texto_desc{
+    text-align: center;/*centra el texto dentro de un contenedor*/
+    color: rgb(3, 1, 1);
+    text-decoration: none;
+    font-family:cursive;
+    text-shadow: 1px 1px 2px black
+
+}
+
+.img_centro{
+    display: flex;  /*siempre en el padre*/
+    justify-content: center; /*la posicion la determina el padre*/
+}

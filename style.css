@@ -191,3 +191,22 @@ div nav{
     display: flex;  /*siempre en el padre*/
     justify-content: center; /*la posicion la determina el padre*/
 }
+
+
+/*Animaciones,transformaciones */
+ 
+ 
+
+.ani {
+    transition: all 1s;
+    background-image: linear-gradient(rgb(54, 59, 40),rgb(27, 13, 13));
+    }
+.ani:hover {
+    height: 200px; width: 200px;
+    padding: 20px;
+    background-image: linear-gradient(rgb(171, 171, 196),rgb(76, 67, 67));
+    transform: scale(1);
+    }
+
+
+

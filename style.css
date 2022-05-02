@@ -138,7 +138,11 @@ div ul li a img{
     display: flex;
     justify-content: center;
     height: 50px;
+   
    /* display: block hace que se vea lo que tiene detras*/
+}
+#carouselExampleControls{
+    position: absolute;
 }
 
 .footer__logo{
@@ -191,4 +195,12 @@ a:link, a:visited, a:active {
 .img-fluid{
     display: flex;
     position: center;
+}
+
+main{
+    Height:105vh;
+}
+
+.w-10{
+    height:105vh ;
 }

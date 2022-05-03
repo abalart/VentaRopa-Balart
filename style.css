@@ -109,6 +109,8 @@ div nav{
 .img_centro{
     display: flex;  /*siempre en el padre*/
     justify-content: center; /*la posicion la determina el padre*/
+    height: 50px;
+    width: 50px;
 }
 
 
@@ -149,7 +151,7 @@ div ul li a img{
     width: 50%;
 }
 .footer{
-    /*dyspley:flex*/
+     
    justify-content: space-between;
    background-color: rgb(255, 170, 127);
    font-family: 'monospace';
@@ -160,6 +162,12 @@ div ul li a img{
     -webkit-font-smoothing: antialiased;
 
 }
+.preguntas{
+     
+   color: rgb(155, 35, 35); 
+}
+
+
 .conteiner-fluid footer{
     display: flex;
     justify-content: space-between;
@@ -202,5 +210,21 @@ main{
 }
 
 .w-10{
-    height:105vh ;
+    height:105vh ; /*alto carrusel*/
 }
+
+.col-auto{
+    display: flex;
+    width: 250px;
+    
+}
+
+/*animaciones finales*/
+.ani {
+    transition: all 1s;
+    background-image: linear-gradient(rgb(223, 223, 223),rgb(240, 193, 193));
+    }
+.ani:hover {
+    height: 10px; 
+  
+    }

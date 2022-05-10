@@ -1,0 +1,15 @@
+/*css especifico de pagina de contacto*/
+h3{
+    text-align: center;
+}
+
+.form_contacto{
+    margin: 20px;
+}
+
+@media screen and (max-width: 768px){
+    
+    #icono_hendora{
+        width: 10%;
+    }
+}

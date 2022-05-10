@@ -1,0 +1,37 @@
+.conteiner-fluid footer{
+    display: flex;
+    justify-content: $justifyDistribuido;
+   
+}
+.icono_red_social{
+    height: 20px;
+    width: 20px;
+    color: black;
+}
+.footer__contacto{
+    border: solid 1px;
+    border-radius: 6px;
+    padding: 20px;
+
+}
+.footer{
+    justify-content: $justifyDistribuido;
+    background-color: rgb(255, 170, 127);
+    font-family: 'monospace';
+     font-weight: 400;
+     font-size: 16px;
+     color: rgba(56, 68, 79, 1);
+     line-height: 1.5;
+     -webkit-font-smoothing: antialiased;
+ 
+ }
+ .btn_enviar{
+    margin: 0 auto;
+    display: flex;
+}
+.footer_logos{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+   padding: 10px;
+ }

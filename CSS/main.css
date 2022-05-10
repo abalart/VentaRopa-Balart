@@ -1,0 +1,56 @@
+/*defino variable global para el proyecto*/
+/*debe ir primero para ser tomadas correctamente*/
+/*css especifico de pagina de contacto*/
+h3 {
+  text-align: center; }
+
+.form_contacto {
+  margin: 20px; }
+
+@media screen and (max-width: 768px) {
+  #icono_hendora {
+    width: 10%; } }
+
+.nav-item {
+  font-size: 16px; }
+
+.conteiner-fluid footer {
+  display: flex;
+  justify-content: space-between; }
+
+.icono_red_social {
+  height: 20px;
+  width: 20px;
+  color: black; }
+
+.footer__contacto {
+  border: solid 1px;
+  border-radius: 6px;
+  padding: 20px; }
+
+.footer {
+  justify-content: space-between;
+  background-color: #ffaa7f;
+  font-family: 'monospace';
+  font-weight: 400;
+  font-size: 16px;
+  color: #38444f;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased; }
+
+.btn_enviar {
+  margin: 0 auto;
+  display: flex; }
+
+.footer_logos {
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  padding: 10px; }
+
+/*
+@import './components/faqs';
+@import './components/outlet';
+@import './components/registro';
+@import './components/index';
+*/

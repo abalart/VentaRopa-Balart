@@ -1,5 +1,6 @@
 
+/*CSS tomado para dar estilo a el header*/
 .nav-item{
-    font-size: 16px;
-   
+    font-size: map-get($tamanio-tipografia,nav-item); /*toma el valor 16px*/
+    border: 1px solid;
 }

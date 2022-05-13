@@ -1,0 +1,8 @@
+.img-fluid{
+    display: flex;
+    position: center;
+    @extend %flex-center;  /*Invoco al extend*/
+}
+
+
+

@@ -1,6 +1,13 @@
 /*defino variable global para el proyecto*/
+/*MAPS*/
+/*Extend: Bloque de codigo que repetimos*/
+.img-fluid {
+  display: flex;
+  justify-content: center; }
+
+/*mixin*/
 /*debe ir primero para ser tomadas correctamente*/
-/*css especifico de pagina de contacto*/
+/*css especifico de seccion de contacto (el resto tomado de boostrap*/
 h3 {
   text-align: center; }
 
@@ -11,8 +18,14 @@ h3 {
   #icono_hendora {
     width: 10%; } }
 
+.form_contacto {
+  margin: 20px; }
+
+/*CSS tomado para dar estilo a el header*/
 .nav-item {
-  font-size: 16px; }
+  font-size: 16px;
+  /*toma el valor 16px*/
+  border: 1px solid; }
 
 .conteiner-fluid footer {
   display: flex;
@@ -48,9 +61,143 @@ h3 {
   color: black;
   padding: 10px; }
 
-/*
-@import './components/faqs';
-@import './components/outlet';
-@import './components/registro';
-@import './components/index';
-*/
+#footer_imagen {
+  width: 50px;
+  height: 50px; }
+
+.footer__logo {
+  width: 50%; }
+
+.footer {
+  justify-content: space-between;
+  background-color: #ffaa7f;
+  font-family: 'monospace';
+  font-weight: 400;
+  font-size: 16px;
+  color: #38444f;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased; }
+
+.footer_logos {
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  padding: 10px; }
+
+@media screen and (max-width: 768px) {
+  #icono_hendora {
+    width: 10%; } }
+
+h3 {
+  text-align: center; }
+
+.btn_enviar {
+  margin: 0 auto;
+  display: flex; }
+
+a:link, a:visited, a:active {
+  text-decoration: none;
+  color: black; }
+
+.textoDentroDeLista {
+  text-align: center;
+  /*centra el texto dentro de un contenedor*/
+  margin-left: 100px;
+  padding: 0 1em;
+  color: #dbd5d5;
+  text-decoration: none;
+  font-family: cursive; }
+
+.body {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  color: #38444f;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased; }
+
+/*animaciones*/
+.ani {
+  transition: all 1s;
+  background-image: linear-gradient(#dfdfdf, #f0c1c1); }
+
+.ani:hover {
+  height: 10px; }
+
+.hendora {
+  display: flex;
+  justify-content: space-between; }
+
+.texto_desc {
+  text-align: center;
+  /*centra el texto dentro de un contenedor*/
+  color: #030101;
+  text-decoration: none;
+  font-family: cursive;
+  text-shadow: 1px 1px 2px black; }
+
+.ani {
+  transition: all 1s;
+  background-image: linear-gradient(#363b28, #1b0d0d); }
+
+.ani:hover {
+  height: 200px;
+  width: 200px;
+  padding: 20px;
+  background-image: linear-gradient(#ababc4, #4c4343);
+  transform: scale(1); }
+
+main {
+  Height: 105vh; }
+
+nav ul li {
+  border: 1px solid; }
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid; }
+
+.div_p {
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: black; }
+
+div nav {
+  border: 1px solid;
+  background-color: black; }
+
+/*Aplicando boostrap*/
+.nav-item {
+  font-size: 16px; }
+
+div ul li a img {
+  size: 10px; }
+
+.col-auto {
+  display: flex;
+  width: 250px; }
+
+.img-fluid {
+  display: flex;
+  position: center;
+  /*Invoco al extend*/ }
+
+.preguntas {
+  color: #9b2323; }
+
+#carouselExampleControls {
+  position: absolute; }
+
+#carouselExampleControls {
+  position: absolute; }
+
+.carrusel {
+  display: flex;
+  justify-content: center;
+  height: 50px; }
+
+.w-10 {
+  height: 105vh;
+  /*alto carrusel*/ }

@@ -1,6 +1,7 @@
 $justifyDistribuido:space-between; /*defino variable global para el proyecto*/
 $tamanioNotebook: 720px;
 $tamanioCelular: 420px;
+$color-HeaderYfooter:#ffaa7f;
 
 /*MAPS*/
 $tamanio-tipografia:(
@@ -11,7 +12,7 @@ $tamanio-tipografia:(
 
 $colores:(
     color-letra:black,
-    color-footer: rgb(255, 170, 127)
+    color-footer: $color-HeaderYfooter
 );
 
 /*Extend: Bloque de codigo que repetimos*/
@@ -27,3 +28,4 @@ $colores:(
     display: $flex;
     justify-content: $justify;
 }
+

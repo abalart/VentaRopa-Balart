@@ -1,7 +1,7 @@
 /*defino variable global para el proyecto*/
 /*MAPS*/
 /*Extend: Bloque de codigo que repetimos*/
-.img-fluid {
+.img-fluid, .centrado {
   display: flex;
   justify-content: center; }
 
@@ -27,6 +27,9 @@ h3 {
   /*toma el valor 16px*/
   border: 1px solid; }
 
+.bg-color {
+  background-color: #ffaa7f; }
+
 .conteiner-fluid footer {
   display: flex;
   justify-content: space-between; }
@@ -42,6 +45,7 @@ h3 {
   padding: 20px; }
 
 .footer {
+  margin-top: 30px;
   justify-content: space-between;
   background-color: #ffaa7f;
   font-family: 'monospace';
@@ -88,6 +92,9 @@ h3 {
   #icono_hendora {
     width: 10%; } }
 
+body {
+  background-color: rgba(229, 214, 214, 0.874); }
+
 h3 {
   text-align: center; }
 
@@ -117,12 +124,18 @@ a:link, a:visited, a:active {
   -webkit-font-smoothing: antialiased; }
 
 /*animaciones*/
-.ani {
-  transition: all 1s;
-  background-image: linear-gradient(#dfdfdf, #f0c1c1); }
+.anim {
+  transition: color 1s; }
 
-.ani:hover {
-  height: 10px; }
+.anim:hover {
+  color: #ffaa7f; }
+
+/*Nav*/
+a {
+  transition: background-color .5s; }
+
+a:hover {
+  background-color: #e17c24; }
 
 .hendora {
   display: flex;
@@ -130,22 +143,9 @@ a:link, a:visited, a:active {
 
 .texto_desc {
   text-align: center;
-  /*centra el texto dentro de un contenedor*/
   color: #030101;
   text-decoration: none;
-  font-family: cursive;
-  text-shadow: 1px 1px 2px black; }
-
-.ani {
-  transition: all 1s;
-  background-image: linear-gradient(#363b28, #1b0d0d); }
-
-.ani:hover {
-  height: 200px;
-  width: 200px;
-  padding: 20px;
-  background-image: linear-gradient(#ababc4, #4c4343);
-  transform: scale(1); }
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
 
 main {
   Height: 105vh; }
@@ -181,8 +181,15 @@ div ul li a img {
 
 .img-fluid {
   display: flex;
-  position: center;
-  /*Invoco al extend*/ }
+  /*Invoco al extend*/
+  height: 370px;
+  width: 400px; }
+
+.estilo-proposito-web {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100rem;
+  display: block; }
 
 .preguntas {
   color: #9b2323; }

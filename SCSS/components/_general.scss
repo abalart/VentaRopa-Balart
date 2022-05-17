@@ -5,6 +5,11 @@
     }
 }
 
+body{
+    background-color: rgba(229, 214, 214, 0.874);
+}
+
+
 h3{
     text-align: center;
 }
@@ -39,14 +44,23 @@ a:link, a:visited, a:active {
 }
 
 /*animaciones*/
-.ani {
-    transition: all 1s;
-    background-image: linear-gradient(rgb(223, 223, 223),rgb(240, 193, 193));
+
+.anim {
+    transition: color 1s;
     }
-.ani:hover {
-    height: 10px; 
-  
+
+.anim:hover {
+    color: $color-HeaderYfooter;
     }
+
+/*Nav*/
+a {
+  transition: background-color .5s;
+}
+
+a:hover {
+  background-color: rgb(225, 124, 36);
+}   
 
 
 .hendora{
@@ -54,24 +68,12 @@ a:link, a:visited, a:active {
 }
 
 .texto_desc{
-    text-align: center;/*centra el texto dentro de un contenedor*/
+    text-align: center; 
     color: rgb(3, 1, 1);
     text-decoration: none;
-    font-family:cursive;
-    text-shadow: 1px 1px 2px black
-
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.ani {
-    transition: all 1s;
-    background-image: linear-gradient(rgb(54, 59, 40),rgb(27, 13, 13));
-}
-.ani:hover {
-    height: 200px; width: 200px;
-    padding: 20px;
-    background-image: linear-gradient(rgb(171, 171, 196),rgb(76, 67, 67));
-    transform: scale(1);
-}
 
 
 main{

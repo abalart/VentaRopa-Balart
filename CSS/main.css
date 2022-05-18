@@ -208,3 +208,6 @@ div ul li a img {
 .w-10 {
   height: 105vh;
   /*alto carrusel*/ }
+
+.card {
+  margin-left: 50px; }

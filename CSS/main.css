@@ -210,4 +210,9 @@ div ul li a img {
   /*alto carrusel*/ }
 
 .card {
-  margin-left: 50px; }
+  margin-left: 10px;
+  position: absolute; }
+
+.form-check-label {
+  display: flex;
+  align-items: center; }

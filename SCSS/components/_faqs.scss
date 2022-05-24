@@ -7,3 +7,6 @@
     position: absolute;
 }
 
+.h1{
+    @extend %flex-center; 
+}

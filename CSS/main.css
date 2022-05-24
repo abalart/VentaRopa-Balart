@@ -1,7 +1,7 @@
 /*defino variable global para el proyecto*/
 /*MAPS*/
 /*Extend: Bloque de codigo que repetimos*/
-.img-fluid, .centrado, .centroCard {
+.img-fluid, .centrado, .h1, .centroCard {
   display: flex;
   justify-content: center; }
 

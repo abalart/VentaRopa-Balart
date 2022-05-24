@@ -1,7 +1,7 @@
 /*defino variable global para el proyecto*/
 /*MAPS*/
 /*Extend: Bloque de codigo que repetimos*/
-.img-fluid, .centrado {
+.img-fluid, .centrado, .centroCard {
   display: flex;
   justify-content: center; }
 
@@ -45,7 +45,7 @@ h3 {
   padding: 20px; }
 
 .footer {
-  margin-top: 30px;
+  margin-top: 60px;
   justify-content: space-between;
   background-color: #ffaa7f;
   font-family: 'monospace';
@@ -210,8 +210,8 @@ div ul li a img {
   /*alto carrusel*/ }
 
 .card {
-  margin-left: 10px;
-  position: absolute; }
+  margin-top: 30px;
+  margin-bottom: 30px; }
 
 .form-check-label {
   display: flex;

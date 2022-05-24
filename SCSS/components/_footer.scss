@@ -15,10 +15,10 @@
 
 }
 .footer{
-    margin-top: 30px;
-    justify-content: $justifyDistribuido;
-    background-color:map-get($colores , color-footer);
-    font-family: 'monospace';
+     margin-top: 60px;
+     justify-content: $justifyDistribuido;
+     background-color:map-get($colores , color-footer);
+     font-family: 'monospace';
      font-weight: 400;
      font-size: 16px;
      color: rgba(56, 68, 79, 1);
@@ -33,7 +33,7 @@
     display: flex;
     justify-content: space-between;
     color: black;
-   padding: 10px;
+    padding: 10px;
  }
 
  #footer_imagen{

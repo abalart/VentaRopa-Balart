@@ -20,3 +20,7 @@
 .centroCard{
     @extend %flex-center; 
 }
+
+.btn-dark-card{
+    background-color: rgba($color: #c28f3d, $alpha: 1.0);
+}

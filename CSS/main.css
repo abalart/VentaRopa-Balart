@@ -1,13 +1,11 @@
 /*defino variable global para el proyecto*/
 /*MAPS*/
 /*Extend: Bloque de codigo que repetimos*/
-.img-fluid, .centrado, .h1, .centroCard {
+.img-fluid, .centrado, .h1, .centroCard, .form-check-label {
   display: flex;
   justify-content: center; }
 
 /*mixin*/
-/*debe ir primero para ser tomadas correctamente*/
-/*css especifico de seccion de contacto (el resto tomado de boostrap*/
 h3 {
   text-align: center; }
 
@@ -17,9 +15,6 @@ h3 {
 @media screen and (max-width: 768px) {
   #icono_hendora {
     width: 10%; } }
-
-.form_contacto {
-  margin: 20px; }
 
 /*CSS tomado para dar estilo a el header*/
 .nav-item {
@@ -54,10 +49,6 @@ h3 {
   color: #38444f;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased; }
-
-.btn_enviar {
-  margin: 0 auto;
-  display: flex; }
 
 .footer_logos {
   display: flex;
@@ -179,9 +170,12 @@ div ul li a img {
   display: flex;
   width: 250px; }
 
+.btn_enviar {
+  position: relative;
+  margin-bottom: 5rem; }
+
 .img-fluid {
   display: flex;
-  /*Invoco al extend*/
   height: 370px;
   width: 400px; }
 
@@ -206,8 +200,7 @@ div ul li a img {
   height: 50px; }
 
 .w-10 {
-  height: 105vh;
-  /*alto carrusel*/ }
+  height: 105vh; }
 
 .card {
   margin-top: 30px;
@@ -216,6 +209,9 @@ div ul li a img {
 .btn-dark-card {
   background-color: #c28f3d; }
 
-.form-check-label {
-  display: flex;
-  align-items: center; }
+.tr_producto .th_productos {
+  text-align: center; }
+
+.img_prod {
+  height: 200px;
+  width: 200px; }

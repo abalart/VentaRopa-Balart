@@ -1,4 +1,4 @@
-@import './base/variables.scss'; /*debe ir primero para ser tomadas correctamente*/
+@import './base/variables.scss';  
 @import './components/contacto';
 @import './components/header';
 @import './components/footer';
@@ -7,3 +7,4 @@
 @import './components/faqs';
 @import './components/outlet';
 @import './components/registro';
+@import './components/productos';
